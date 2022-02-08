@@ -1,24 +1,6 @@
 {
   "name": "vue-editor-js-3",
   "license": "MIT",
-  "author": "ChangJoo Park<pcjpcj2@gmail.com>",
-  "keywords": [
-    "editor",
-    "editorjs",
-    "vue.js",
-    "vue-editor",
-    "vue-composition-api",
-    "vue3",
-    "vue-demi"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/smeggingsmegger/vue-editor-js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smeggingsmegger/vue-editor-js/issues"
-  },
-  "version": "2.2",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -26,16 +8,6 @@
     "demo": "vue-cli-service demo",
     "start": "vue-cli-service serve"
   },
-  "main": "dist/vue-editor-js.common.js",
-  "module": "dist/vue-editor-js.esm.js",
-  "unpkg": "dist/vue-editor-js.umd.min.js",
-  "files": [
-    "dist/vue-editor-js.common.js",
-    "dist/vue-editor-js.umd.min.js",
-    "dist/vue-editor-js.umd.js",
-    "dist/vue-editor-js.esm.js",
-    "src"
-  ],
   "dependencies": {
     "@editorjs/editorjs": "latest",
     "vue-demi": "latest",
@@ -73,6 +45,5 @@
     "vue-cli-plugin-p11n": "latest",
     "vue-template-compiler": "latest"
   },
-  "jsdelivr": "dist/vue-editor-js.umd.min.js",
   "sideeffects": false
 }
